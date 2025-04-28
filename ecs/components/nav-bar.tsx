@@ -6,12 +6,12 @@ export function NavBar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-white shadow-md">
       <div className="container mx-auto px-14 py-6 flex items-center justify-between">
-        {/* Left: Logo */}
+   
         <Link href="/" className="flex items-center">
           <Image
-            src="/ecs logo 1.png" // Replace with the correct path to your logo
+            src="/ecs logo 1.png" 
             alt="ECS NEPAL Logo"
-            width={160} // Slightly larger logo
+            width={160} 
             height={50}
             className="h-14 w-auto"
           />
