@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-white">
       <div className="container mx-auto px-4">
-        {/* Navigation Links */}
+     
         <div className="py-8 flex justify-center space-x-8">
           <Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">
             About Us
@@ -21,7 +21,7 @@ export function Footer() {
           </Link>
         </div>
 
-        {/* Company Info */}
+        
         <div className="bg-[#1D1D1D] text-white py-4">
           <div className="container mx-auto px-4 flex justify-center items-center space-x-2">
           <Link href="/" className="flex items-center">
