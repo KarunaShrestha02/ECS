@@ -9,6 +9,8 @@ import { CurrentIssue } from "@/components/currrent-issue"
 import { Footer } from "@/components/footer"
 import { SisterPublications } from "@/components/sister-publications"
 import { Newsletter } from "@/components/newsletter"
+import { MagazineSlider } from "@/components/magazine-slider"
+import { LatestIssues } from "@/components/latest-issues"
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <DiscoverySection />
       <FoodSection />
       <FeaturedGrid />
+      <LatestIssues/>
+      <MagazineSlider/>
       <CurrentIssue />
       <SisterPublications />
       <Newsletter />
