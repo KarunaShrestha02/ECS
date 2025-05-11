@@ -1,4 +1,4 @@
-import { NavBar } from "@/components/nav-bar"
+import NavBar from "@/components/nav-bar"
 import { HeroSection } from "@/components/hero-section"
 import { NaturalBlissSection } from "@/components/natural-bliss-section"
 import { WildSection } from "@/components/wild-section"
