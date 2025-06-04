@@ -71,13 +71,13 @@ export function MagazineSlider() {
   const visibleIndices = getVisibleIndices()
 
   return (
-    <section className="py-16 bg-black">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="relative h-[600px] overflow-hidden">
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 z-20 text-white hover:text-yellow-400 transition-colors"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-20 text-black hover:text-yellow-400 transition-colors"
             aria-label="Previous slide"
           >
             <ChevronLeft className="w-12 h-12" />
@@ -85,7 +85,7 @@ export function MagazineSlider() {
 
           <button
             onClick={nextSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 z-20 text-white hover:text-yellow-400 transition-colors"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-20 text-black hover:text-yellow-400 transition-colors"
             aria-label="Next slide"
           >
             <ChevronRight className="w-12 h-12" />
