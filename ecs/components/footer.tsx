@@ -23,7 +23,7 @@ export function Footer() {
 
         
         <div className="bg-[#1D1D1D] text-white py-4">
-          <div className="container mx-auto px-1 flex justify-center items-center space-x-2">
+          <div className="container mx-auto px-4s flex justify-center items-center space-x-2">
           <Link href="/" className="flex items-center">
           <Image src="/ECS_media_logo_1 1.png" alt="ECS NEPAL" width={120} height={40} className="h-10 w-auto" />
         </Link>
